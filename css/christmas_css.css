@@ -1,0 +1,69 @@
+body {
+    height: 100rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(/img/background.png);
+}
+
+.jumbotron-other {
+    background: url(/img/navbar.jfif);
+    height: 160px;
+}
+
+.container {
+    width: 100%;
+}
+
+.pink {
+    border: 12px solid rgb(238, 171, 171);
+    background-color: rgb(238, 171, 171);
+}
+
+.generate {
+    width: 250px;
+    height: 80px;
+}
+
+button p {
+    font-size: 35px;
+}
+
+.site-footer {
+    background-color:rgb(179, 152, 152);
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#020202;
+}
+
+.space {
+    width: 100%;
+    height: 350px;
+}
+
+  
+.site-footer hr {
+    border-top-color:#bbb;
+    opacity:0.5
+}
+
+.fa {
+    color: black;
+}
+
+.modal-footer {
+    background-image: url(/img/unused/download.jfif);
+}
+
+.modal-header {
+    background-image: url(/img/unused/download.jfif);
+}
+
+img {
+    cursor: pointer;
+}
+
+.sheets {
+    width: 100%;
+}
