@@ -3,11 +3,11 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: url(/img/background.png);
+    background-image: url("/img/background.png");
 }
 
 .jumbotron-other {
-    background: url(/img/navbar.jfif);
+    background: url("/img/navbar.jfif");
     height: 160px;
 }
 
@@ -29,14 +29,6 @@ button p {
     font-size: 35px;
 }
 
-.site-footer {
-    background-color:rgb(179, 152, 152);
-    padding:45px 0 20px;
-    font-size:15px;
-    line-height:24px;
-    color:#020202;
-}
-
 #space {
     width: 300px;
     height: 300px;
@@ -46,9 +38,17 @@ button p {
     text-align: center;
 }
 
+.site-footer {
+    background-color:rgb(179, 152, 152);
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#020202;
+}
+
 .site-footer hr {
     border-top-color:#bbb;
-    opacity: 0.5
+    opacity: 0.5;
 }
 
 .fa {
@@ -72,11 +72,11 @@ button p {
 }
 
 .modal-sm-backgr {
-    background-image: url(/img/modals/download.jfif);
+    background-image: url("/img/modals/download.jfif");
 }
 
 .modal-big-backg {
-    background-image: url(/img/modals/back3.jfif);
+    background-image: url("/img/modals/back3.jfif");
 }
 
 img {
