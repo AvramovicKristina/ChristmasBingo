@@ -37,27 +37,46 @@ button p {
     color:#020202;
 }
 
-.space {
-    width: 100%;
-    height: 350px;
+#space {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-  
 .site-footer hr {
     border-top-color:#bbb;
-    opacity:0.5
+    opacity: 0.5
 }
 
 .fa {
     color: black;
 }
 
-.modal-footer {
-    background-image: url(/img/unused/download.jfif);
+.snowflake-icon {
+    color: rgb(104, 230, 247)
 }
 
-.modal-header {
-    background-image: url(/img/unused/download.jfif);
+.download-icon {
+    color: rgb(7, 27, 209);
+}
+
+.heart-icon {
+    color: red;
+}
+
+.tree-icon {
+    color: green;
+}
+
+.modal-sm-backgr {
+    background-image: url(/img/modals/download.jfif);
+}
+
+.modal-big-backg {
+    background-image: url(/img/modals/back3.jfif);
 }
 
 img {
@@ -66,4 +85,15 @@ img {
 
 .sheets {
     width: 100%;
+}
+
+.play-button {
+    background-color: white;
+    border: 1.5px solid black;
+}
+
+.image-style {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
 }

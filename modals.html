@@ -1,0 +1,111 @@
+    <div class="modal fade youClikedThisModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header modal-sm-backgr">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body text-center text-monospace">
+                    <h3>Good job! You chose The sheet.</h3>
+                </div>
+
+                <div class="modal-footer modal-sm-backgr">
+                    <button class="btn btn-default btn-lg play-button" data-dismiss="modal">Play</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade form-popup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+
+                <div class="modal-header modal-big-backg">
+                    <h3 class="modal-title text-center">Welcome to Christmas Bingo! <br> Please read the instructions first.</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    Playing Christmas Bingo is the perfect opportunity to bring your family together. 
+                    <i class="fa fa-heart-o heart-icon" aria-hidden="true"></i><br>
+                    In any Bingo game we have different Bingo-sheets to choose from.
+                    You buy one, go home, stare at your TV <i class="fa fa-television" aria-hidden="true"></i> and wait for the numbers, right? :D 
+                    Now, if you would want to play at home with friends, one would have to read random numbers 
+                    and the rest of you would have to circle them (when you spot them on your Bingo sheet).<br>
+                    Weeeeeeell, I have made a way for all of you to play.
+                    Just imagine the same game but with Christmas pictures instead of numbers. 
+
+                    In the spirit of Christmas <i class="fa fa-snowflake-o snowflake-icon" aria-hidden="true"></i> and other New Year Holidays 
+                    <i class="fa fa-tree tree-icon" aria-hidden="true"></i> you can choose from 3 different Bingo Sheets. 
+                    Download the file <i class="fa fa-download download-icon" aria-hidden="true"></i> and print it. 
+                    Cut the sheets and let each person choose one. Then just click on the "Generate" button and mark the items you see with those 
+                    you have in your sheet. The winner is the first player to achieve a winning pattern and call out "Bingo!".<br>
+                    <i class="fa fa-arrow-right"></i> If you want to play a short game: The winning pattern could be any straight line (horizontal, vertical or diagonal).<br>
+                    <i class="fa fa-arrow-right"></i> If you want to play medium-length game: The winning pattern could be any two intersecting straight lines.<br>
+                    <i class="fa fa-arrow-right"></i> If you want to play a long game: The winning pattern could be to mark off every square on the bingo card.<br>
+                    <i class="fa fa-arrow-right"></i> If you have lots of players, and want to have multiple winners: You could have multiple winning patterns - 
+                    the first winner is the first player to mark off all four corner squares, the second winner is the first player to get a straight line, 
+                    the third winner is the first player to get two intersecting lines, and the fourth winner is the player who is first to mark off all the squares 
+                    on their bingo card.<br>
+                    <br><br>BINGO MARKERS
+                    There’s tons of bingo marker options for this holiday bingo set. 
+                    We typically use candy because it is the easiest and, obviously, 
+                    we all enjoy it!  Some of my favorite candy options are:
+                    <li>Individually wrapped Hershey kisses</li>
+                    <li>Wrapped peppermints (or other candies)</li> 
+                    <li>Red and green M&Ms</li><br>
+                    NON-CANDY BINGO MARKER OPTIONS<br>
+                    <li>Holiday erasers</li>
+                    <li>Bells</li>
+                    <li>Noodles (can even be dyed red and green)</li><br>
+                    Now go download that sheet and play the game! 
+                </div>
+
+                <div class="modal-footer modal-big-backg">
+                    <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">OK</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="alert-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header modal-sm-backgr">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="UGASI">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body text-center text-monospace">
+                    <h3>You didn't read the instructions <i class="fa fa-frown-o sad-face-icon" aria-hidden="true"></i>
+                        <br>Please choose a sheet.
+                    </h3>
+                </div>
+
+                <div class="modal-footer modal-sm-backgr">
+                    <button class="btn btn-default btn-lg play-button" data-dismiss="modal">Will do</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $(".form-popup").modal({ show: true });
+        })
+    </script>

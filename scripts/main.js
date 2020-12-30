@@ -1,14 +1,23 @@
-
+var date = new Date();
 var pictureArray;
 var folderNumber;
 var arrayLength;
 
+$(document).ready(function() {
+    $(".placeholder-modals").load("modals.html");
+});
+
+document.getElementById('year').innerHTML = date.getFullYear();
+
 function generator () {
-    console.log(arrayLength + " " + folderNumber);
-    var x=Math.floor((Math.random()*arrayLength)+1);
-    console.log(x); 
-    document.getElementById('space').innerHTML=
-        `<img src="img/bingos${folderNumber}/bingo${x}.png" style="width:300px;">`;
+    if (folderNumber == null && arrayLength == null) {
+        $('#alert-modal').modal('show');
+        // window.alert("Please choose a sheet first!");
+    } else {
+        var x=Math.floor((Math.random()*arrayLength)+1);
+        document.getElementById('space').innerHTML=
+        `<img src="img/bingos${folderNumber}/bingo${x}.png" class="image-style">`;
+    }
 }
 
 $("#bingos1").on('click', function(){
@@ -52,6 +61,3 @@ function removeSelectedClass() {
     $('#bingos2').removeClass('selected');
     $('#bingos3').removeClass('selected');
 }
-
-$("img").css({"style": "hover-zoom"});
-
