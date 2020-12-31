@@ -5,6 +5,8 @@ var arrayLength;
 
 $(document).ready(function() {
     $(".placeholder-modals").load("modals.html");
+    $("body").css("background-image", " url('img/background.png')");
+    $(".jumbotron-other").css("background", "url('img/navbar.jfif')");
 });
 
 document.getElementById('year').innerHTML = date.getFullYear();
