@@ -3,11 +3,11 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: url("https://github.com/avramovickristina/img/background.png");
+    background-image: url("https://avramovickristina.github.io/img/background.png");
 }
 
 .jumbotron-other {
-    background: url("https://github.com/avramovickristina/img/navbar.jfif");
+    background: url("https://avramovickristina.github.io/img/navbar.jfif");
     height: 160px;
 }
 
@@ -72,11 +72,11 @@ button p {
 }
 
 .modal-sm-backgr {
-    background-image: url("https://github.com/avramovickristina/img/modals/download.jfif");
+    background-image: url("https://avramovickristina.github.io/img/modals/download.jfif");
 }
 
 .modal-big-backg {
-    background-image: url("https://github.com/avramovickristina/img/modals/back3.jfif");
+    background-image: url("https://avramovickristina.github.io/img/modals/back3.jfif");
 }
 
 img {
