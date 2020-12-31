@@ -3,11 +3,11 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: url("ChristmasBingo/img/background.png");
+    background-image: url("./ChristmasBingo/img/background.png");
 }
 
 .jumbotron-other {
-    background: url("ChristmasBingo/img/navbar.jfif");
+    background: url("./ChristmasBingo/img/navbar.jfif");
     height: 160px;
 }
 
@@ -72,11 +72,11 @@ button p {
 }
 
 .modal-sm-backgr {
-    background-image: url("ChristmasBingo/img/modals/download.jfif");
+    background-image: url("./ChristmasBingo/img/modals/download.jfif");
 }
 
 .modal-big-backg {
-    background-image: url("ChristmasBingo/img/modals/back3.jfif");
+    background-image: url("./ChristmasBingo/img/modals/back3.jfif");
 }
 
 img {
