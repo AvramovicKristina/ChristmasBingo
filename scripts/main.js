@@ -14,7 +14,6 @@ document.getElementById('year').innerHTML = date.getFullYear();
 function generator () {
     if (folderNumber == null && arrayLength == null) {
         $('#alert-modal').modal('show');
-        // window.alert("Please choose a sheet first!");
     } else {
         var x=Math.floor((Math.random()*arrayLength)+1);
         document.getElementById('space').innerHTML=
